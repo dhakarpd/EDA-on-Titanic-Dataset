@@ -16,10 +16,9 @@ predict_survival_file - This function is for handling POST request. One can inpu
                         File Input format-
                         Age - number
                         Sex -> 1- M; 0- F
-                        Embark  Embarked   Interpretation
-                          0         0          C
-                          1         0          Q
-                          0         1          S
+                        Embark=0; Embarked=0; Interpretation-C
+                        Embark=1; Embarked=0; Interpretation-Q
+                        Embark=0; Embarked=1; Interpretation-S
                        Output- Prediction of person will survive or not
  
 predict_survival_file_new - This function is for handling POST request. One can input the data in book_changed.csv file. File input format is quite understandable in this file it                             matches with the original dataset format. Output- Prediction of person will survive or not
